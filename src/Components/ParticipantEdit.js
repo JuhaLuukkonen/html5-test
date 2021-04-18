@@ -16,7 +16,7 @@ class ParticipantEdit extends Component{
     }
 
     render(){
-        // place cancel and save buttons side by side - NOK yet     
+        // place cancel and save buttons side by side     
         const btnStyle = {
             display: "flex",
             verticalAlign: "baseline",        
