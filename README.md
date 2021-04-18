@@ -2,8 +2,7 @@
       - React form about list of participants - React style issues 
 
 ## TODO: 
-      - Down arrow beside Name title is located too high - titles do not match baseline
-      - Set cancel and save buttons side by side
+      - Down arrow beside Name title is located too high - titles do not match baseline - maby feature?
       - Make sure all size settings in UI
 
 ## Install and running app
