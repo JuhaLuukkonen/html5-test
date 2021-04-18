@@ -15,8 +15,6 @@ The app will be directed to [http://localhost:3000/](http://localhost:3000/)
 
 ## Folder structure
 ```
-myapp/
-  node_modules/
   public/
     index.html
     logo.png
