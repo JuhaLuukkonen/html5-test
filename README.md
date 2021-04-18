@@ -40,6 +40,3 @@ myapp/
   package.json
   README.md
 ```
-  
-    
-# html5-test
