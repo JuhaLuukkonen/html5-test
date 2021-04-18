@@ -1,12 +1,11 @@
 # HTML5 test - Juha Luukkonen
+      - code from web source and then own modification to match test documentation 
+      - react style documentation
 
 ## TODO: 
       - style fix - make space between edit and delete icons - OK
       - set cancel and save buttons side by side
       - make sure all size settings in UI
-
-## Demo version
-Not yet published
 
 ## Introduction
 An app with full CRUD control of participant list using React.js
