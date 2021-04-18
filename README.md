@@ -1,8 +1,10 @@
 # HTML5 test - Juha Luukkonen
 
-This is test project to Digia Oyj position: Koodaava Team lead
+This is test project for Digia Oyj position: Koodaava Team lead
 
 https://github.com/digiaonline/docs/tree/master/recruitment/html5
+
+https://digia.com/rekrytointi/avoimet-tyopaikat/koodaava-team-lead-dx/
 
 ## TODO: 
       - style fix - make space between edit and delete icons - OK - but now arrow down is positioned too high
