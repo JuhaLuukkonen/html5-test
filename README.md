@@ -6,6 +6,10 @@ https://github.com/digiaonline/docs/tree/master/recruitment/html5
 
 https://digia.com/rekrytointi/avoimet-tyopaikat/koodaava-team-lead-dx/
 
+Used library
+
+https://fontawesome.com/how-to-use/on-the-web/using-with/react
+
 ## TODO: 
       - style fix - titles E-mail address and Phone number do not set in baseline - feature?
       - make sure all size settings in UI
