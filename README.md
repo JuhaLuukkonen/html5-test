@@ -1,6 +1,6 @@
 # HTML5 test - Juha Luukkonen
 
-This is test project for Digia Oyj position: Koodaava Team Lead
+Test project for Digia Oyj position: Koodaava Team Lead
 
 https://github.com/digiaonline/docs/tree/master/recruitment/html5
 
