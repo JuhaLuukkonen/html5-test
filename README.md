@@ -6,9 +6,6 @@
       - set cancel and save buttons side by side
       - make sure all size settings in UI
 
-## Introduction
-An app with full CRUD control of participant list using React.js
-
 ## Install and running app
 ```
 npm install 
