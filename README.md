@@ -31,5 +31,6 @@ The app will be directed to [http://localhost:3000/](http://localhost:3000/)
     index.js
     registerService.js
   package.json
+  styleguide.png
   README.md
 ```
