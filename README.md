@@ -1,9 +1,13 @@
 # HTML5 test - Juha Luukkonen
-      - React form about list of participants - React style issues 
+
+This is test project to Digia Oyj position: Koodaava Team lead
+
+https://github.com/digiaonline/docs/tree/master/recruitment/html5
 
 ## TODO: 
-      - Down arrow beside Name title is located too high - titles do not match baseline - maby feature?
-      - Make sure all size settings in UI
+      - style fix - make space between edit and delete icons - OK - but now arrow down is positioned too high
+      - set cancel and save buttons side by side
+      - make sure all size settings in UI
 
 ## Install and running app
 ```
