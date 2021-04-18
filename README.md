@@ -2,7 +2,7 @@
       - React form about list of participants - React style issues 
 
 ## TODO: 
-      - style fix - make space between edit and delete icons - OK
+      - arrow is located too high - titles do not match baseline
       - set cancel and save buttons side by side
       - make sure all size settings in UI
 
