@@ -19,7 +19,7 @@ class ParticipantEdit extends Component{
         // place cancel and save buttons side by side     
         const btnStyle = {
             display: "flex",
-            verticalAlign: "baseline",        
+            verticalAlign: "baseline"        
         }
         return(
             <tr key={this.props.id} id={this.props.id} className='form'>
