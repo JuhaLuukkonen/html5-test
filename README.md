@@ -1,6 +1,5 @@
 # HTML5 test - Juha Luukkonen
-      - code from web source and then own modification to match test documentation 
-      - react style documentation
+      - React form about list of participants - react style issues 
 
 ## TODO: 
       - style fix - make space between edit and delete icons - OK
