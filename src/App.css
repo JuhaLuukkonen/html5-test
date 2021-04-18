@@ -1,0 +1,31 @@
+/* MAIN APP STYLING */
+.App{
+    margin: 0 auto;
+    background-color: #f4f4ec;
+    width: 976px;
+    height: 100%;
+}
+
+/* HEADER & LOGO STYLING */
+.header{
+    width: 100%;
+    height: 96px;
+    background-color:#adb5bd;
+}
+
+.header img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 17px;
+}
+
+/* CONTENT CLASS STYLING */
+.content{
+    margin: 32px;
+}
+
+h2{
+    color: #757575;
+}
+
