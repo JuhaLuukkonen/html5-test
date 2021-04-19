@@ -142,25 +142,25 @@ class ParticipantList extends Component{
     }
 
     render(){
-        //icon edit
-        const spacing = "8px 8px";
-        const icon = {
-            fill: '#909090',
-            padding: spacing,
-            height: 24,
-            width: 24
-        }
+        //icon edit - conts sort and arror down before const icon - creates warning but seems to work
         const sort = (
             <FontAwesomeIcon style={icon} icon={faArrowDown} />
         )
         
+        const spacing = "8px 8px";        
+        const icon = {
+            fill: '#909090',
+            padding: spacing,            
+            height: 24,
+            width: 24
+        }
+                
         const pencil = (            
               <FontAwesomeIcon style={icon} icon={faPencilAlt} />            
         )          
         const trash = (            
               <FontAwesomeIcon style={icon} icon={faTrash} />            
         )
-
 
         //looping participants list
         let participant = this.state.participants.map((val, i) => {
