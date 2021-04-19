@@ -26,7 +26,7 @@ The app will be directed to [http://localhost:3000/](http://localhost:3000/)
 
 ## Folder structure
 ```
-main/
+html5-test-main/
   public/
     index.html
     logo.png
