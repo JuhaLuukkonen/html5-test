@@ -1,4 +1,4 @@
-/* Two tables styling */
+/* Two tables styles */
 table {
     width: 912px;
     background-color: white;
@@ -21,7 +21,7 @@ table .btn {
     width: 20%;
 }
 
-/* Form table styling */
+/* Form table style */
 .form input {
     width: 80%;
     height: 40px;
@@ -55,7 +55,7 @@ table .btn {
     margin: 0 30px;
 }
 
-/* Main table styling */
+/* Main table style */
 .table tr td, th {
     padding: 24px;    
     border-bottom: #f4f4f4 solid 1px;
