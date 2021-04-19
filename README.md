@@ -10,6 +10,10 @@ Used library
 
 https://fontawesome.com/how-to-use/on-the-web/using-with/react
 
+Random user API
+
+https://randomuser.me/
+
 ## TODO: 
   - make sure all UI size settings and list sorting
 
