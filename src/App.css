@@ -1,4 +1,4 @@
-/* Main app styles */
+/* Main app style */
 .App{
     margin: 0 auto;
     background-color: #f4f4ec;
@@ -20,7 +20,7 @@
     left: 17px;
 }
 
-/* Content class styles */
+/* Content class style */
 .content{
     margin: 32px;
 }
