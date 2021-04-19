@@ -11,8 +11,6 @@ Used library
 https://fontawesome.com/how-to-use/on-the-web/using-with/react
 
 ## TODO: 
-      - const sort before const icon in file ParticipantList.js creates no-use-before-define 
-        warning but works to title baseline bug
       - make sure all size settings in UI
 
 ## Install and running app
