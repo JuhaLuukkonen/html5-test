@@ -6,7 +6,7 @@ https://github.com/digiaonline/docs/tree/master/recruitment/html5
 
 https://digia.com/rekrytointi/avoimet-tyopaikat/koodaava-team-lead-dx/
 
-Used library
+Used icon library
 
 https://fontawesome.com/how-to-use/on-the-web/using-with/react
 
