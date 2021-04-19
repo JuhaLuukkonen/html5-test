@@ -28,20 +28,19 @@ class ParticipantList extends Component{
         }
     }
         
-    //receive props from FetchAPI random generator
+    // Receive props from FetchAPI random generator
     componentWillReceiveProps(props){
         if(typeof props.rdmPartList !== 'undefined'){
             this.setState({participants: props.rdmPartList});
         }
     }
 
-    //onChange event
+    // OnChange event
     inputChanged = (event) => {
         this.setState({[event.target.name]: event.target.value});
     }
 
-    //handle validation
-    //name must not be undefined
+    // Handle validation - Name can not be undefined
     validateName(name)
     {
         if(name !== ''){
@@ -52,7 +51,7 @@ class ParticipantList extends Component{
         }
     }
 
-    //valid email must contain some special characters
+    // Valid email must contain some special characters
     validateEmail(email) 
     {
         const validEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
@@ -66,18 +65,18 @@ class ParticipantList extends Component{
         
     }
 
-    //Add new participant row function
+    // Add new participant row function
     btnPress = () => {
         let participant = {
             name: this.state.name,
             email: this.state.email,
             number: this.state.number,
-            show: true //set show row table to true 
+            show: true // Set show row table to true 
         }
 
-        //validate name, email & phone number
+        // Validate name, email & phone number inputs
         if(this.validateName(participant.name) && this.validateEmail(participant.email)){
-            //after submit, input will be left blank
+            // After submit, input will be left empty
             let name = '', email = '', number = '';
 
             this.setState({
@@ -97,13 +96,13 @@ class ParticipantList extends Component{
         this.setState({participants});
     }
 
-    //delete participant row
+    // Delete participant row
     deletePart = (deletedId) => {
         let participants = this.state.participants.filter((val, i) => i !== deletedId);
         this.setState({participants});
     }
 
-    //open participant edit form
+    // Open participant edit form
     editPart = (editId) => {
         let participants = this.state.participants.map(function(val, i){
             if(i === editId){
@@ -116,7 +115,7 @@ class ParticipantList extends Component{
         });
     }
 
-    //update participant edit 
+    // Update participant edit 
     updatePart = (id, name, email, number) => {
         let participants = this.state.participants.map((val, i) => {
             if(i === id){
@@ -130,7 +129,7 @@ class ParticipantList extends Component{
         this.setState({participants}); 
     }
 
-    //cancel participant edit form
+    // Cancel participant edit form
     cancelPart = (id) => {
         let participants = this.state.participants.map((val, i) => {
             if(i === id){
@@ -142,11 +141,7 @@ class ParticipantList extends Component{
     }
 
     render(){
-        //icon edit - conts sort and arror down before const icon - creates warning but seems to work
-        const sort = (
-            <FontAwesomeIcon style={icon} icon={faArrowDown} />
-        )
-        
+        // Icon edit               
         const spacing = "8px 8px";        
         const icon = {
             fill: '#909090',
@@ -154,7 +149,9 @@ class ParticipantList extends Component{
             height: 24,
             width: 24
         }
-                
+        const sort = (
+            <FontAwesomeIcon icon={faArrowDown} />  // Remove style with icon props to avoid titles baseline breaking
+        )                
         const pencil = (            
               <FontAwesomeIcon style={icon} icon={faPencilAlt} />            
         )          
@@ -162,7 +159,7 @@ class ParticipantList extends Component{
               <FontAwesomeIcon style={icon} icon={faTrash} />            
         )
 
-        //looping participants list
+        // Looping participants list
         let participant = this.state.participants.map((val, i) => {
             if(val.show === true){
                 return (
@@ -178,7 +175,7 @@ class ParticipantList extends Component{
                 )
             } 
             else {
-                return ( //show edit form when show = false
+                return ( // Show edit form when show = false
                     <ParticipantEdit
                         key={i}
                         id={i}
