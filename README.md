@@ -11,7 +11,7 @@ Used library
 https://fontawesome.com/how-to-use/on-the-web/using-with/react
 
 ## TODO: 
-      - make sure all size settings in UI
+  - make sure all UI size settings and functionalities
 
 ## Install and running app
 ```
