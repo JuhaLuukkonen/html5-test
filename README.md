@@ -18,8 +18,6 @@ Random user API:
 
 https://randomuser.me/
 
-## TODO: 
-  - make sure all UI size settings and list sorting
 
 ## Install and running app
 ```
