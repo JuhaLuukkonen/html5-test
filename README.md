@@ -2,15 +2,19 @@
 
 React form list of participants is test project for Digia Oyj position: Koodaava Team Lead
 
+Test requirements:
+
 https://github.com/digiaonline/docs/tree/master/recruitment/html5
+
+About position:
 
 https://digia.com/rekrytointi/avoimet-tyopaikat/koodaava-team-lead-dx/
 
-Used icon library
+Used icon library:
 
 https://fontawesome.com/how-to-use/on-the-web/using-with/react
 
-Random user API
+Random user API:
 
 https://randomuser.me/
 
