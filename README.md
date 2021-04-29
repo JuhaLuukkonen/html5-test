@@ -1,14 +1,6 @@
 # HTML5 test - Juha Luukkonen
 
-React form list of participants is test project for Digia Oyj position: Koodaava Team Lead
-
-Test requirements:
-
-https://github.com/digiaonline/docs/tree/master/recruitment/html5
-
-About position:
-
-https://digia.com/rekrytointi/avoimet-tyopaikat/koodaava-team-lead-dx/
+- React form list of participants is test project
 
 Used icon library:
 
